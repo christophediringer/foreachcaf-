@@ -7,90 +7,102 @@
     <title>ForEach Koffee</title>
 </head>
 <body>
-   <header>
-        <div class="titreicon">
-            <h1 id="titre">ForEach Koffée</h1>
-        </div>
-        <div class="titreicon"></div>
-            <div class="petitstitre"> 
-                <a href="notre histoire">Notre histoire</a>
-                <a href="notre carte">Notre carte</a>
-                <a href="notre contact">Contact</a>
+    <header>
+        <div id="header_contener">
+            <div class="block_header">
+                <div class="container_foreach"></div>
+                    <H1>ForEach Koffee</H1>
             </div>
-            <div>
-                <a href="facebook"><img src="./starter_exo_css_4/assets/icons/facebook_icon.png" alt="facebook"></a>
+            <div class="block_header">
+                <div class="container_liens">
+                    <a href="notre histoire">Notre histoire</a>
+                    <a href="notre carte">Notre carte</a>
+                    <a href="notre contact">Contact</a>
+                </div>
             </div>
-            <div>
-                <a href="x"><img src="./starter_exo_css_4/assets/icons/x_icon.png" alt="x x_icon"></a>
+            <div class="block_header">
+                <div class="container_icons">
+                    <div>
+                        <a href="facebook">
+                            <img src="./starter_exo_css_4/assets/icons/facebook_icon.png" alt="facebook">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="x">
+                            <img src="./starter_exo_css_4/assets/icons/x_icon.png" alt="x x_icon">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="insta">
+                            <img src="./starter_exo_css_4/assets/icons/instagram_icon.png" alt="instagram">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="tiktoc">
+                            <img src="./starter_exo_css_4/assets/icons/tiktok_icon.png" alt="tiktok">
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div>
-                <a href="insta"><img src="./starter_exo_css_4/assets/icons/instagram_icon.png" alt="instagram"></a>
-            </div>
-            <div>
-                <a href="tiktoc"><img src="./starter_exo_css_4/assets/icons/tiktok_icon.png" alt="tiktok"></a>
-            </div>
-        </div>
-    </header>
-<main>
-    <div class="couverture"> 
-        <ul>
-            <h1 class="Bienvenue">Bienvenue à ForEach Koffee</h1>
-            <p class="le café">Le café le plus chill de Lille</p>
-        </ul>
-    </div>
-   
-  
+    </header>    
+    <main>
+        <section id="section_bienvenue ">
+            <ul>
+                <li><span class="bienvenue"></span></li>
+                <li>Bienvenue à ForEach Koffee</li>
+                <li>Le café le plus chill de Lille</li>
+            </ul>
+        </section>
 
-  <section class="notrehistoire">
-    <div>
-        <h2>Notre histoire</h2>
-    </div>
-        <p>ForEach Koffée est une</p>
 
+        <section class="notrehistoire">
+            <div>
+            <h2>Notre histoire</h2>
+            </div>
+            <p>ForEach Koffée est une</p>
+        </section>
 
-  <section class="notrecarte">
-    <h2>Notre carte</h2>
-        <section class=""photo1>
-            <div>
-                <img src="./starter_exo_css_4/assets/images/barista.jpg" alt="Kakao">
-            </div>
-            <h3>Kakao Milk</h3>
-            <p>préparé avec soin,</p>
-        </section> 
-        <section class="photo2">  
-            <div>
-                <img src="./starter_exo_css_4/assets/images/barista.jpg" alt="chai">
-            </div>
+        <section class="notrecarte">
+            <h2>Notre carte</h2>
+            <div class="photo1">
+                <div>
+                    <img src="./starter_exo_css_4/assets/images/barista.jpg" alt="Kakao">
+                </div>
+                <h3>Kakao Milk</h3>
+                <p>préparé avec soin,</p>
+            </div> 
+            <div class="photo2">  
+                <div>
+                    <img src="./starter_exo_css_4/assets/images/coffee_being_prepared.jpg" alt="chai">
+                </div>
                 <h3>Chai Tea ith Almond Latte</h3>
                 <p>Le chai Tea avec du lait</p>
-        </section> 
-        <section class="photo3">
-            <div>
-                <img src="./starter_exo_css_4/assets/images/barista.jpg" alt="Soolong">
-            </div>
+            </div> 
+            <div class="photo3">
+                <div>
+                    <img src="./starter_exo_css_4/assets/images/eat_together.jpg" alt="Soolong">
+                </div>
                 <h3>Soolong</h3>
                 <p>Le thé noit Soolong,</p>
-        </section> 
-        <section class="photo4">
-            <div>
-                <img src="./starter_exo_css_4/assets/images/barista.jpg" alt="Kafé Latté">
-            </div>
+            </div> 
+            <div class="photo4">
+                <div>
+                    <img src="./starter_exo_css_4/assets/images/reading_with_coffee.jpg" alt="Kafé Latté">
+                </div>
                 <h3>Kafé Latté</h3>
                 <p>Le Kafé latté séduit</p>
-         </section> 
-    </section>
-
-
-    <section class="notre contact">
-        <h2>Contact</h2>
-    <form>
-        <input type="text" name="firstname" placeholder="Prénom">
-        <input type="email" name="email" placeholder="Email">
-        <textarea name="message" placeholder="Votre message ici."></textarea>
-        <button type="submit">Envoyer</button>
-    </form>
-    </section>
-</main>
+            </div> 
+        </section>
+        <section class="notre contact">
+            <h2>Contact</h2>
+            <form>
+                <input type="text" name="firstname" placeholder="Prénom">
+                <input type="email" name="email" placeholder="Email">
+                <textarea name="message" placeholder="Votre message ici."></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
 
 </body>
 </html>
